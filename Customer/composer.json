@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/M2_PHP_L21_MVC",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "shin_bae",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "controller",
+      "Models\\": "model"
+    }
+  },
+  "require": {
+  }
+}
